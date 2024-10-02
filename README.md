@@ -17,17 +17,18 @@
 
 ## Run Code
 
+### Installation
+
+To clone this repository along with its submodules, use the following command:
+    
+    git clone --recurse-submodules https://github.com/LeeBumSeok/XDetox.git
+
 ### Requirements
 
 Ensure you have **Python 3.8+** installed along with the required dependencies. Install the necessary libraries using:
     
     pip install -r requirements.txt
 
-### Installation
-
-To clone this repository along with its submodules, use the following command:
-    
-    git clone --recurse-submodules https://github.com/LeeBumSeok/XDetox.git
 
 ### Quick Start
 
@@ -36,6 +37,9 @@ After cloning the repository, you can easily run the XDetox method with the prov
     python lab.py --all --output_folder single --evaluate --ranking
 
 
+## Related Work
+
+This research is inspired by ideas from previous work on text detoxification and explainability, particularly [MARCO (Hallinan et al., 2023)](https://aclanthology.org/2023.acl-short.21/) and [DecompX (Modarressi et al., 2023)](https://aclanthology.org/2023.acl-long.149/).
 
 ## Citation
 TODO

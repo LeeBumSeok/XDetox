@@ -5,7 +5,7 @@ import os
 from numpy import ufunc
 from transformers import BartForConditionalGeneration, BartTokenizer
 from IPython import embed
-from training.infilling import *
+from .infilling import *
 from utils import *
 import nltk.tokenize.casual
 import torch
@@ -203,7 +203,6 @@ class Infiller:
                         sentence_outputs_dict[original_sentence_idx][
                             "decoded_outputs"
                         ].append(decoded_output)
-                        print(decoded_output)
 
                 for i in tqdm(range(len(inputs)), desc="Ranking"):
                     df = classifier.classify_sentence(

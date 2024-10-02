@@ -32,7 +32,7 @@ Ensure you have **Python 3.8+** installed along with the required dependencies. 
 
 ### Quick Start
 
-After cloning the repository, you can easily run the XDetox method with the provided script. Use the following command to run the full evaluation:
+After cloning the repository, you can easily run the XDetox method with the provided script. Use the following command to run:
     
     python lab.py --all --output_folder single --evaluate --ranking
 

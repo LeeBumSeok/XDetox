@@ -1,7 +1,7 @@
-# <p align="center">XDetox: Text Detoxification with Token-Level Toxicity Explanations</p>
+# <p align="center">XDetox</p>
 
 <h3 align="center">
-  <p>This repository contains the official implementation of <b>XDetox</b>, <b>accepted to EMNLP 2024</b>.</p>
+  <p>This repository contains the official implementation of <b>XDetox: Text Detoxification with Token-Level Toxicity Explanations</b>, <b>accepted to EMNLP 2024</b>.</p>
 </h3>
 
 <p align="center">

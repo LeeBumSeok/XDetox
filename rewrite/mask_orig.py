@@ -211,16 +211,3 @@ class Masker:
                     output.append(" ".join(masked_text))
 
         return output
-
-
-# if __name__ == "__main__":
-#     detox = Masker()
-#     print(
-#         detox.process_text(
-#             [
-#                 "I will hurt every jew",
-#                 "I like you. I love you",
-#             ],
-#             threshold=0.4,
-#         )
-#     )

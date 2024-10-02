@@ -6,7 +6,7 @@ import os
 os.environ["TRANSFORMERS_CACHE"] = "cache/"
 from transformers import BartForConditionalGeneration, BartTokenizer
 from IPython import embed
-from training.infilling import *
+from .infilling import *
 from utils import *
 import nltk.tokenize.casual
 import torch

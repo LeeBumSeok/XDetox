@@ -17,6 +17,10 @@
 
 ## Run Code
 
+### Recommended Hardware
+
+We conducted our experiments using an NVIDIA A100 GPU with 40GB of VRAM. For systems with lower VRAM, the method can still be run; however, you may need to reduce the batch size to accommodate the available memory.
+
 ### Installation
 
 To clone this repository along with its submodules, use the following command:

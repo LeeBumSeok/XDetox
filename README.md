@@ -46,7 +46,8 @@ After cloning the repository, you can easily run the XDetox method with the prov
 This research is inspired by ideas from previous work on text detoxification and explainability, particularly [MARCO (Hallinan et al., 2023)](https://aclanthology.org/2023.acl-short.21/) and [DecompX (Modarressi et al., 2023)](https://aclanthology.org/2023.acl-long.149/).
 
 ## Citation
->@inproceedings{lee-etal-2024-xdetox,
+```bibtex
+@inproceedings{lee-etal-2024-xdetox,
     title = "{XD}etox: Text Detoxification with Token-Level Toxicity Explanations",
     author = "Lee, Beomseok  and
       Kim, Hyunwoo  and
@@ -64,4 +65,4 @@ This research is inspired by ideas from previous work on text detoxification and
     pages = "15215--15226",
     abstract = "Methods for mitigating toxic content through masking and infilling often overlook the decision-making process, leading to either insufficient or excessive modifications of toxic tokens. To address this challenge, we propose XDetox, a novel method that integrates token-level toxicity explanations with the masking and infilling detoxification process. We utilized this approach with two strategies to enhance the performance of detoxification. First, identifying toxic tokens to improve the quality of masking. Second, selecting the regenerated sentence by re-ranking the least toxic sentence among candidates. Our experimental results show state-of-the-art performance across four datasets compared to existing detoxification methods. Furthermore, human evaluations indicate that our method outperforms baselines in both fluency and toxicity reduction. These results demonstrate the effectiveness of our method in text detoxification.",
 }
-
+```
